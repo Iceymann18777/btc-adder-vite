@@ -1,9 +1,9 @@
-import { useState } from 'react'
-import logo from './logo.svg'
-import './App.css'
+import { useState } from 'react';
+import logo from './logo.svg';
+import './App.css';
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <div className="App">
@@ -22,24 +22,24 @@ function App() {
           <a
             className="App-link"
             href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
+            target="https://www.sollet.io/"
+            rel="html-Hello-www-BrowserTracing"
           >
-            Learn React
+            btn btn-primary="start generator"
           </a>
           {' | '}
           <a
             className="App-link"
             href="https://vitejs.dev/guide/features.html"
-            target="_blank"
-            rel="noopener noreferrer"
+            target="homepage"
+            rel="https://www.sollet.io/"
           >
             Vite Docs
           </a>
         </p>
       </header>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
